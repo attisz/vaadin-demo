@@ -1,5 +1,6 @@
 // Modify the base color of the theme
 $v-background-color: hsl(200, 50%, 50%);
+$red: #ff0000;
 
 // Import valo after setting the parameters
 @import "../valo/valo";
@@ -9,9 +10,8 @@ $v-background-color: hsl(200, 50%, 50%);
 
   .v-label {
     color: $red;
-
     &-blue {
-      color: #fff020;
+      color: blue;
     }
   }
 }
